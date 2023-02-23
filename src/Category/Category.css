@@ -1,0 +1,17 @@
+.list {
+    margin: 60px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.Category {
+    width: 180px;
+    height: 60px;
+    background-color: rgb(214, 214, 215);
+    padding-top: 13px;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}

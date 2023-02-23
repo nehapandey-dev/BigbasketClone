@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Dancing+Script:wght@400;500&family=Edu+NSW+ACT+Foundation&family=Lobster+Two:ital,wght@0,400;0,700;1,400&family=Londrina+Outline&family=Orbitron&family=Parisienne&family=Poppins:wght@100&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#dropdown-item-button {
+
+    background-color: rgb(106, 191, 53);
+    border-style: none;
+    border-radius: 0%;
+}
+
+#dropdown-item-button:hover {
+    background-color: rgb(92, 150, 35);
+}
+
+#dropdown-item:active {
+    transform: translateY(2px);
+}
+
+.offer-btn {
+    border-style: none;
+    width: 120px;
+    height: 36px;
+
+}
+
+.offer-btn:hover {
+    background-color: rgb(106, 191, 53);
+
+}
+
+.Category:active {
+    transform: translateY(2px);
+}
+
+.Category:hover {
+    border: 1px solid rgb(81, 135, 13);
+}
+
+.cat-btn:hover {
+    border: 1px solid rgb(80, 122, 22);
+    border-radius: 9px;
+}
+
+.cat-btn:active {
+    transform: translateY(2px);
+}
+
+
+
+.showmore {
+    display: flex;
+    justify-content: flex-end;
+    gap: 400px;
+    margin-right: 90px;
+}
+
+.show-btn {
+    background-color: rgb(73, 153, 19);
+    color: #fff;
+    padding: 4px;
+    border-style: none;
+    width: 120px;
+    border-radius: 3px;
+    font-size: small;
+}
+
+.show-btn:hover {
+    background-color: rgb(65, 123, 8);
+}
+
+.show-btn:active {
+    transform: translateY(2px);
+}
+
+.topoffer-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+
+}
+
+.topoffer-img {
+    border: 1px solid rgb(219, 217, 217);
+}
+
+hr {
+    margin-left: 80px;
+    margin-right: 80px;
+    color: rgb(169, 166, 166);
+}
+
+.topoffers {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.topoffer-img:hover {
+    box-shadow: 1px 2px 3px 4px rgb(222, 221, 221);
+}
+
+.section-2 {
+    text-align: center;
+}
+
+.fru-veg {
+    width: 180px;
+    border: 1px solid rgb(219, 217, 217);
+    margin: 4px;
+}
+
+.fru-veg:hover {
+    box-shadow: 1px 2px 3px 4px rgb(222, 221, 221);
+}
+
+.section-3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.main-staple {
+    width: 180px;
+    margin: 4px;
+    border: 1px solid rgb(219, 217, 217);
+}
+
+.section-4 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.Beverages-img {
+    width: 180px;
+    margin: 4px;
+    border: 1px solid rgb(219, 217, 217);
+}
+
+.Beverages-img:hover {
+    box-shadow: 1px 2px 3px 4px rgb(222, 221, 221);
+}
+
+.section-5 {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+
+.Beauty-and-Hygiene {
+    display: flex;
+    align-items: center;
+}
+
+.section5-img {
+    border: 1px solid rgb(219, 217, 217);
+    margin: 8px;
+}
+
+.section5-img:hover {
+    box-shadow: 1px 2px 3px 4px rgb(222, 221, 221);
+}
+
+.section-6 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.section-6-img {
+    width: 180px;
+    border: 1px solid rgb(219, 217, 217);
+    margin: 8px;
+}
+
+.section-6-img:hover {
+    box-shadow: 1px 2px 3px 4px rgb(222, 221, 221);
+}
+
+.section-8 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.BrandStore-img {
+    width: 180px;
+    border: 1px solid rgb(219, 217, 217);
+    margin: 8px;
+}
+
+.BrandStore-img:hover {
+    box-shadow: 1px 2px 3px 4px rgb(222, 221, 221);
+}
+
+.me-3 {
+    background-color: rgb(220, 216, 216);
+    padding: 4px;
+}
+
+.me-3:hover {
+    border: 2px solid rgb(185, 216, 9);
+}
+
+.cart:active {
+    transform: translateY(2px);
+}
+
+.btn-box {
+    padding: 1px;
+    width: 24px;
+    margin: 4px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    border: 0.1rem solid rgb(182, 178, 178);
+}
+
+.btn-box:hover {
+    background-color: rgb(73, 71, 71);
+    color: azure;
+}
+
+.name {
+    margin-left: 12px;
+}
+
+table {
+    margin: 12px;
+}
+
+.Clear-btn {
+
+    padding: 3px;
+    margin: 12px;
+    background-color: rgb(224, 223, 223);
+}
+
+.buy-btn {
+    padding: 3px;
+    background-color: rgb(221, 222, 223);
+}
+
+.buy-btn:hover {
+    background-color: rgb(129, 192, 104);
+}
+
+.Clear-btn:hover {
+    background-color: rgb(201, 61, 61);
+}
+
+.trash-bin {
+    margin: 10px;
+}
+
+.trash-bin:hover {
+    color: firebrick;
+}
+
+.table-row {
+    padding: 4px;
+    font-size: small;
+}
