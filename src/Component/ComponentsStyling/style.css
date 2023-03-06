@@ -197,70 +197,102 @@ hr {
     box-shadow: 1px 2px 3px 4px rgb(222, 221, 221);
 }
 
-.me-3 {
-    background-color: rgb(220, 216, 216);
-    padding: 4px;
+Link {
+    text-decoration: none;
 }
 
-.me-3:hover {
-    border: 2px solid rgb(185, 216, 9);
-}
+@media (max-width: 480px) {
 
-.cart:active {
-    transform: translateY(2px);
-}
+    .Hero-Img {
+        display: flex;
+    }
 
-.btn-box {
-    padding: 1px;
-    width: 24px;
-    margin: 4px;
-    background-color: aliceblue;
-    border-radius: 50%;
-    border: 0.1rem solid rgb(182, 178, 178);
-}
+    .img {
+        margin-right: 0;
+        flex: 0 0 33.333333%;
+        display: block;
+    }
 
-.btn-box:hover {
-    background-color: rgb(73, 71, 71);
-    color: azure;
-}
+    .showmore {
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+        margin-left: 60px;
 
-.name {
-    margin-left: 12px;
-}
+    }
 
-table {
-    margin: 12px;
-}
+    .show-btn {
+        width: 70px;
+        border-radius: 3px;
+        font-size: 8px;
+    }
 
-.Clear-btn {
+    h4 {
+        font-size: 8px;
+    }
 
-    padding: 3px;
-    margin: 12px;
-    background-color: rgb(224, 223, 223);
-}
+    .topoffers {
+        margin: 20px;
+        text-align: center;
+    }
 
-.buy-btn {
-    padding: 3px;
-    background-color: rgb(221, 222, 223);
-}
+    .topoffer-img {
+        width: 90px;
+    }
 
-.buy-btn:hover {
-    background-color: rgb(129, 192, 104);
-}
+    .fru-veg {
+        width: 100px;
+    }
 
-.Clear-btn:hover {
-    background-color: rgb(201, 61, 61);
-}
+    .main-staple {
+        width: 100px;
+    }
 
-.trash-bin {
-    margin: 10px;
-}
+    .Beverages-img {
+        width: 100px;
+    }
 
-.trash-bin:hover {
-    color: firebrick;
-}
+    .Beauty-and-Hygiene {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.table-row {
-    padding: 4px;
-    font-size: small;
+    .section5-img {
+        border: 1px solid rgb(219, 217, 217);
+        margin: 8px;
+        width: 120px;
+    }
+
+    .section-6-img {
+        width: 100px;
+
+    }
+
+    .d-block {
+        width: 300px;
+        height: 100px;
+    }
+
+    .BrandStore-img {
+        width: 100px;
+    }
+
+    table {
+        margin: 10px;
+        font-size: 8px;
+    }
+
+    .Clear-btn {
+        width: 80px;
+        font-size: 9px;
+
+    }
+
+    .buy-btn {
+        width: 80px;
+        font-size: 9px;
+
+    }
+
 }

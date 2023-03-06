@@ -6,6 +6,7 @@ import { useCart } from "react-use-cart";
 
 const Cards = (props) => {
   const { addItem } = useCart();
+
   return (
     <section >
       <div className="cards">
@@ -25,6 +26,7 @@ const Cards = (props) => {
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlVCSvMAuCzAP6GW_zsITvGIXdK7QXyNcFwg&usqp=CAU"
             alt="img"
             width={30}
+            className='veg'
           />
           <ul>
             <li>{props.id}</li>

@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Navigationbar from "./Navbar";
 import "./Header.css"
+import { Link } from "react-router-dom";
 
 import {
   BsFillTelephoneFill,
@@ -13,16 +14,18 @@ import {
 function Contact() {
   return (
     <>
+
       <Container className="contact">
+        <Link to={'/contact-us'} style={{ textDecoration: 'none' }}><BsFillTelephoneFill />
+          18601231000</Link>
 
-        <BsFillTelephoneFill />
-        18601231000
-
-        <BsFillGeoAltFill />
-        560004,Bangalore
-
-        <BsPerson />
-        Login/Sign Up
+        <Link to={'/location'} style={{ textDecoration: 'none' }}><BsFillGeoAltFill />
+          560004,Bangalore</Link>
+          
+        <Link to={'/login/signup'} style={{ textDecoration: 'none' }}>
+          <BsPerson />
+          Login/Sign Up
+        </Link>
 
       </Container>
 

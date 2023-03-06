@@ -3,7 +3,7 @@ import { BsBasketFill, BsTrashFill } from "react-icons/bs";
 import { useCart } from "react-use-cart";
 import { useState } from "react";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import CloseButton from 'react-bootstrap/CloseButton';
+import CloseButton from "react-bootstrap/CloseButton";
 
 const Cartbtn = (props) => {
   const [show, setShow] = useState(false);
@@ -22,7 +22,7 @@ const Cartbtn = (props) => {
     return (
       <>
         <div className="cart">
-          <button variant="primary" className="me-3">
+          <button className="me-3">
             <BsBasketFill /> My Basket 0 Item
           </button>
         </div>
@@ -38,10 +38,13 @@ const Cartbtn = (props) => {
 
       <Offcanvas show={show} placement={"end"} onHide={handleClose} {...props}>
         <Offcanvas.Body>
-          <table>
+          <table className="table">
             <tbody>
-
-              <CloseButton aria-label="Hide" variant="primary" onClick={handleClose} />
+              <CloseButton
+                aria-label="Hide"
+                variant="primary"
+                onClick={handleClose}
+              />
 
               {items.map((data, index) => {
                 return (
@@ -55,7 +58,9 @@ const Cartbtn = (props) => {
                         alt="img"
                       />
                     </td>
-                    <td className="table-row"><b>{data.name}</b></td>
+                    <td className="table-row">
+                      <b>{data.name}</b>
+                    </td>
                     <td className="table-row">Rs {data.price}.00</td>
 
                     <td className="table-row">

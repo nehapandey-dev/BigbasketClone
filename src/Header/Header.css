@@ -1,3 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+}
+
 .contact {
     font-size: 14px;
     display: flex;
@@ -24,4 +33,126 @@
 
 .search-btn:active {
     transform: translateY(2px);
+}
+.btn-box {
+    padding: 1px;
+    width: 24px;
+    margin: 4px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    border: 0.1rem solid rgb(182, 178, 178);
+}
+
+.btn-box:hover {
+    background-color: rgb(73, 71, 71);
+    color: azure;
+}
+
+.name {
+    margin-left: 12px;
+}
+
+table {
+    margin: 12px;
+}
+
+.Clear-btn {
+    padding: 3px;
+    margin: 12px;
+    background-color: rgb(224, 223, 223);
+}
+
+.buy-btn {
+    padding: 3px;
+    background-color: rgb(221, 222, 223);
+}
+
+.buy-btn:hover {
+    background-color: rgb(129, 192, 104);
+}
+
+.Clear-btn:hover {
+    background-color: rgb(201, 61, 61);
+}
+
+.trash-bin {
+    margin: 10px;
+}
+
+.trash-bin:hover {
+    color: firebrick;
+}
+
+.table-row {
+    padding: 4px;
+    font-size: small;
+}
+
+Link {
+    text-decoration: none;
+}
+.me-3:hover {
+    border: 2px solid rgb(185, 216, 9);
+}
+
+.cart:active {
+    transform: translateY(2px);
+}
+
+.me-3 {
+    background-color: rgb(220, 216, 216);
+    padding: 4px;
+}
+
+@media (max-width: 480px) {
+
+    .logo {
+        margin-left: 12px;
+        width: 80px;
+    }
+
+    .navbar {
+        height: 50px;
+
+    }
+
+    .contact {
+        font-size: 8px;
+        gap: 20px;
+
+    }
+
+    .box {
+        width: 200px;
+        height: 30px;
+        font-size: smaller;
+        text-align: center;
+        border: 1px solid rgb(92, 177, 7);
+        margin-left: 120px;
+    }
+
+    .search-btn {
+        height: 30px;
+        width: 30px;
+        position: relative;
+        right: 9%;
+        border-style: none;
+        background-color: rgb(56, 101, 10);
+    }
+
+    .img {
+        margin-top: 10px;
+        width: 100vw;
+        height: 140px;
+    }
+
+    .cart {
+        position: fixed;
+        left: 40%;
+        top: 28px;
+        font-size: 10px;
+        width: 140px;
+    }
+    
+    
 }

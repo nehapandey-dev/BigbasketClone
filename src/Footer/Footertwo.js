@@ -27,8 +27,8 @@ function Footertwo() {
             </div>
             <div>
                 <h6>Download Our App</h6>
-                <div><img src='/section-8-img/Google-App-store-icon.png' alt='app'/></div>
-                <div><img src='/section-8-img/Google-App-store-icon.png' alt='app'/></div>
+                <div className='app'><img src='/section-8-img/Google-App-store-icon.png' alt='app'/></div>
+                <div className='app'><img src='/section-8-img/Google-App-store-icon.png' alt='app'/></div>
             </div>
             <div>
                 <h6>Get Social with us</h6>

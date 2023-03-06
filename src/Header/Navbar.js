@@ -13,7 +13,8 @@ function Navigationbar() {
         <Navbar.Brand href="#">
           <img
             src="https://www.bbassets.com/static/v2629/custPage/build/content/img/bb_logo.png"
-            alt="img"
+            alt="logo-img"
+            className="logo"
           ></img>
         </Navbar.Brand>
 

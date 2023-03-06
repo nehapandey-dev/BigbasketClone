@@ -48,3 +48,42 @@ h6 {
 .para-2 {
     margin-left: 80px;
 }
+
+@media (max-width: 480px) {
+    .footer-one {
+        margin: 30px;
+        padding: 10px;
+        font-size: 8px;
+    }
+
+    .footer-two {
+        flex-wrap: wrap;
+        font-size: 10px;
+        margin-left: 50px;
+    }
+
+
+    .footerthree {
+        padding: 10px;
+        margin-left: 10px;
+    }
+
+    .footer {
+        display: flex;
+    }
+
+    .para {
+        width: 300px;
+        font-size: 8px;
+    }
+
+    .para-2 {
+        margin-left: 10px;
+        margin-bottom: 30px;
+        font-size: 10px;
+    }
+
+    h6 {
+        font-size: 10px;
+    }
+}

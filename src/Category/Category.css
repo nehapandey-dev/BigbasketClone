@@ -15,3 +15,27 @@
     border-radius: 0.5rem;
     font-weight: bold;
 }
+@media (max-width: 480px) {
+    .list {
+        margin: 20px;
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        gap:10px
+    }
+    .Category {
+        width: 180px;
+        height: 30px;
+        background-color: rgb(214, 214, 215);
+        border-radius: 0.5rem;
+        font-weight: bold;
+        font-size: 6px;
+        padding: 4px;
+    }
+    .cat-btn{
+        width: 50px;
+        height: 30px;
+    }
+}

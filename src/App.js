@@ -20,7 +20,7 @@ import SectionEight from './Component/SectionEight'
 import FooterOne from './Footer/FooterOne'
 import Footertwo from './Footer/Footertwo'
 import Footerthree from './Footer/Footerthree';
-import Footerend from './Footer/Footerend'
+import Footerfore from './Footer/Footerfore'
 import { CartProvider } from 'react-use-cart';
 
 
@@ -62,7 +62,7 @@ function App() {
         <FooterOne />
         <Footertwo />
         <Footerthree />
-        <Footerend />
+        <Footerfore />
       </CartProvider>
 
     </>

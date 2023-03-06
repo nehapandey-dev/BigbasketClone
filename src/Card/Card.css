@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-evenly;
     font-size: 12px;
-    width: 200px;
+    width: 13rem;
 
 }
 
@@ -71,4 +71,61 @@
 
 ul li {
     list-style: none;
+}
+
+@media (max-width: 500px) {
+    .cards-container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .cards {
+        font-size: 10px;
+        width: 9rem;
+
+    }
+
+    .card-img {
+        width: 10px;
+        height: 90px;
+    }
+
+    .card-offer {
+        width: 140px;
+        margin-left: 1px;
+        margin-top: 6px;
+        font-size: 7px;
+
+    }
+
+    .name {
+        font-size: 8px;
+        font-weight: bold;
+    }
+
+    .add-btn {
+        width: 60px;
+        font-size: 8px;
+        margin: 2px;
+    }
+
+    .timing {
+        font-size: 6px;
+
+    }
+
+    .body {
+        padding: 2px;
+        margin: 2px;
+    }
+
+    .quantity-box {
+        width: 20px;
+        font-size: 6px;
+        text-align: center;
+    }
+
+    .veg {
+        width: 18px;
+    }
 }
