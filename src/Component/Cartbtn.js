@@ -37,15 +37,14 @@ const Cartbtn = (props) => {
       </div>
 
       <Offcanvas show={show} placement={"end"} onHide={handleClose} {...props}>
+        <div className="close"><CloseButton
+          aria-label="Hide"
+          onClick={handleClose}
+        /></div>
         <Offcanvas.Body>
           <table className="table">
-            <tbody>
-              <CloseButton
-                aria-label="Hide"
-                variant="primary"
-                onClick={handleClose}
-              />
 
+            <tbody>
               {items.map((data, index) => {
                 return (
 
@@ -54,7 +53,7 @@ const Cartbtn = (props) => {
                     <td className="table-row">
                       <img
                         src={data.img}
-                        style={{ height: "4rem" }}
+                        style={{ height: "3rem" }}
                         alt="img"
                       />
                     </td>
@@ -64,23 +63,23 @@ const Cartbtn = (props) => {
                     <td className="table-row">Rs {data.price}.00</td>
 
                     <td className="table-row">
-                      <button
+                      <span
                         className="btn-box"
                         onClick={() =>
                           updateItemQuantity(data.id, data.quantity - 1)
                         }
                       >
                         -
-                      </button>
+                      </span>
                       {data.quantity}
-                      <button
+                      <span
                         className="btn-box"
                         onClick={() =>
                           updateItemQuantity(data.id, data.quantity + 1)
                         }
                       >
                         +
-                      </button>
+                      </span>
 
                       <span
                         className="trash-bin"
@@ -96,7 +95,7 @@ const Cartbtn = (props) => {
           </table>
 
 
-          <hr />
+
           <div>
             <h6>Sub Total : Rs {cartTotal}.00</h6>
             <h6>Delivery fee : Rs 30.00</h6>

@@ -8,7 +8,7 @@ body {
 }
 
 .contact {
-    font-size: 14px;
+    font-size: 12px;
     display: flex;
     justify-content: flex-end;
     gap: 10px;
@@ -21,23 +21,27 @@ body {
 
 .box {
     width: 400px;
+    height: 40px;
     text-align: center;
     border: 1px solid rgb(92, 177, 7);
     margin-right: 2px;
 }
 
 .search-btn {
-    background-color: rgb(131, 231, 69);
-    color: #fff;
+    position: relative;
+    right: 30px;
+    top: 6px;
 }
 
 .search-btn:active {
     transform: translateY(2px);
 }
+
 .btn-box {
-    padding: 1px;
-    width: 24px;
-    margin: 4px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: 3px;
+    font-size: 14px;
     background-color: aliceblue;
     border-radius: 50%;
     border: 0.1rem solid rgb(182, 178, 178);
@@ -48,12 +52,13 @@ body {
     color: azure;
 }
 
-.name {
-    margin-left: 12px;
+.close {
+    margin-left: 20px;
+    margin-top: 8px;
 }
 
-table {
-    margin: 12px;
+.name {
+    margin: 3px;
 }
 
 .Clear-btn {
@@ -76,7 +81,8 @@ table {
 }
 
 .trash-bin {
-    margin: 10px;
+    font-size: 14px;
+    margin-left: 8px;
 }
 
 .trash-bin:hover {
@@ -84,13 +90,14 @@ table {
 }
 
 .table-row {
-    padding: 4px;
+    padding: 2px;
     font-size: small;
 }
 
 Link {
     text-decoration: none;
 }
+
 .me-3:hover {
     border: 2px solid rgb(185, 216, 9);
 }
@@ -108,11 +115,12 @@ Link {
 
     .logo {
         margin-left: 12px;
-        width: 80px;
+        width: 70px;
     }
 
     .navbar {
-        height: 50px;
+        height: 60px;
+        background-color: rgb(133, 173, 93);
 
     }
 
@@ -123,21 +131,16 @@ Link {
     }
 
     .box {
-        width: 200px;
-        height: 30px;
-        font-size: smaller;
-        text-align: center;
-        border: 1px solid rgb(92, 177, 7);
-        margin-left: 120px;
+        width: 180px;
+        height: 28px;
+        font-size: 10px;
+        margin-right: 70px;
+        border: 1px solid green;
     }
 
     .search-btn {
-        height: 30px;
-        width: 30px;
-        position: relative;
-        right: 9%;
-        border-style: none;
-        background-color: rgb(56, 101, 10);
+        right: 100px;
+        font-size: 10px;
     }
 
     .img {
@@ -148,11 +151,12 @@ Link {
 
     .cart {
         position: fixed;
-        left: 40%;
-        top: 28px;
-        font-size: 10px;
-        width: 140px;
+        left: 80%;
+        top: 26px;
+        font-size: 9px;
+        width: 90px;
+
     }
-    
-    
+
+
 }

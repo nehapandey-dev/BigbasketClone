@@ -1,5 +1,4 @@
- ### `Bigbaskte clone Project 🛒`
- : built using following technologies  React JS, React Bootstrap.
+ ### `Bigbaskte clone Project 🛒`: built using following technologies  React JS, React Bootstrap.
 
 ### `👩🏻‍💻 About Developer 👩🏻‍💻`
 

@@ -81,18 +81,18 @@ ul li {
 
     .cards {
         font-size: 10px;
-        width: 9rem;
+        width: 8rem;
 
     }
 
     .card-img {
-        width: 10px;
-        height: 90px;
+        width: 4px;
+        height: 60px;
     }
 
     .card-offer {
-        width: 140px;
-        margin-left: 1px;
+        width: 100px;
+        margin-left: 10px;
         margin-top: 6px;
         font-size: 7px;
 

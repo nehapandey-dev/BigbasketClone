@@ -1,9 +1,8 @@
-import Button from "react-bootstrap/Button";
-import Container from "react-bootstrap/Container";
-import Form from "react-bootstrap/Form";
-import Navbar from "react-bootstrap/Navbar";
-import Cartbtn from "../Component/Cartbtn";
-import { BsSearch } from "react-icons/bs";
+import Container from "react-bootstrap/Container"
+import Form from "react-bootstrap/Form"
+import Navbar from "react-bootstrap/Navbar"
+import Cartbtn from "../Component/Cartbtn"
+import { BsSearch } from "react-icons/bs"
 import "./Header.css"
 
 function Navigationbar() {
@@ -25,9 +24,11 @@ function Navigationbar() {
             className="box"
             aria-label="Search"
           />
-          <Button variant="outline-success" className="search-btn">
+
+          <span variant="outline-success" className="search-btn">
             <BsSearch />
-          </Button>
+          </span>
+          
         </Form>
 
         <Cartbtn />
